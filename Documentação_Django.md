@@ -13,7 +13,7 @@ Se você é novo em programação ou usuário novo do Django? Esse é o lugar pa
 
 Está tendo dificuldades? Nós podemos te ajudar.
 
-- Tente o [FAQ](https://docs.djangoproject.com/en/5.1/faq/) - Nele você encontra as respostas para as perguntas mais comuns.
+- Tente o [FAQ](https://docs.djangoproject.com/en/5.1/faq/) - Nele você encontra as respostas para as perguntas comuns.
 - Quer uma ajuda especifica? Tente [Index](https://docs.djangoproject.com/en/5.1/genindex/), [Module Index](https://docs.djangoproject.com/en/5.1/py-modindex/) ou o [tabela de conteúdo](https://docs.djangoproject.com/en/5.1/contents/).
 - Não encontrou nada? Veja [FAQ: Obtendo ajuda](https://docs.djangoproject.com/en/5.1/contents/) para obter ajuda e responder perguntas da comunidade.
 - Reportar erros com o Django [aqui](https://code.djangoproject.com/).
@@ -24,7 +24,7 @@ Django possui uma documentação extensa. Uma visão geral em alto nível de com
 
 - [Tutoriais](https://docs.djangoproject.com/en/5.1/intro/) te pegam pelas mãos e te ajuda a criar uma aplicação web passo a passo. Comece pelo tutorial se você é novo usuário de Django ou também não tem experiência com desenvolvimento de aplicações web. Também de uma olhada em ["Primeiros Passos"](https://docs.djangoproject.com/en/5.1/#index-first-steps).
 - [Guia de tópicos](https://docs.djangoproject.com/en/5.1/topics/) discussão de pontos chaves e conceitos em alto nível, dando boas ideias.
-- [Guia de referências](https://docs.djangoproject.com/en/5.1/ref/) nela você encontra referências tecnicas para API e outros assuntos do Django. Eles descrevem como funciona e como usa o Django, assumindo que vocˆ´tenha um entendimento básico de conceitos importantes.
+- [Guia de referências](https://docs.djangoproject.com/en/5.1/ref/) nela você encontra referências tecnicas para API e outros assuntos do Django. Eles descrevem como funciona e como usa o Django, assumindo que você tenha um entendimento básico de conceitos importantes.
 - [Guia de como fazer](https://docs.djangoproject.com/en/5.1/howto/) te dão uma idéia dos passos envolvidos e problemas chaves de caso de uso. São tutoriais avançados e assumem que você sabe como Django funciona.
 
 _Algumas palavras a seguir não serão traduzidas. Existe uma arquitetura MVC (Model, View e Control) e faz sentido que você saiba o que é. Para mais informações veja esse vídeo: [YouTube - MVC](https://youtu.be/m5ZcrbiD41E?si=zEovsamN3MJD4cft&t=163)_
@@ -50,3 +50,107 @@ Django adota o conceito de _views_ para encapsular a parte lógica de uma _reque
 - Base-classes views: [Visão Geral](https://docs.djangoproject.com/pt-br/5.1/topics/class-based-views/) | [Modo Interno para views](https://docs.djangoproject.com/pt-br/5.1/topics/class-based-views/generic-display/) | [Edição interna para views](https://docs.djangoproject.com/pt-br/5.1/topics/class-based-views/generic-editing/) | [Usando mixins](https://docs.djangoproject.com/pt-br/5.1/topics/class-based-views/mixins/) | [API referência](https://docs.djangoproject.com/pt-br/5.1/ref/class-based-views/) | [Index plano?](https://docs.djangoproject.com/pt-br/5.1/ref/class-based-views/flattened-index/)
 - Avançado: [Gerando CSV](https://docs.djangoproject.com/pt-br/5.1/howto/outputting-csv/) | [Gerando PDF](https://docs.djangoproject.com/pt-br/5.1/howto/outputting-pdf/)
 - Middleware: [Visão geral](https://docs.djangoproject.com/pt-br/5.1/topics/http/middleware/) | [Classes de Middleware embutidas](https://docs.djangoproject.com/pt-br/5.1/ref/middleware/)
+
+## A camada _"template"_
+
+A camada _template_ fornce uma sintaxe de design amigavel para rendereizar as informações que serão mostradas ao usuário. Aprenda mais a seguir:
+
+- O básico: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/templates/)
+- Para designers: [Visão geral da linguagem](https://docs.djangoproject.com/en/5.1/ref/templates/language/) | [Tags e filtros nativos](https://docs.djangoproject.com/en/5.1/ref/templates/builtins/) | [Humanização](https://docs.djangoproject.com/en/5.1/ref/contrib/humanize/)
+- Para programadores: [Modelo API](https://docs.djangoproject.com/en/5.1/ref/templates/api/) | [Tags e Filtros customizados](https://docs.djangoproject.com/en/5.1/howto/custom-template-tags/) | [Modelo customizado backend](https://docs.djangoproject.com/en/5.1/howto/custom-template-backend/)
+
+## Formulários
+
+Django fornce um boas ferramentas para facilitar a criação de forms e manipupalação de dados.
+
+- O bádico: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/forms/) | [API de formulários](https://docs.djangoproject.com/en/5.1/ref/forms/api/) | [Campos nativos](https://docs.djangoproject.com/en/5.1/ref/forms/fields/) | [Widgets nativos](https://docs.djangoproject.com/en/5.1/ref/forms/widgets/)
+- Avançado: [Modelo de formulários](https://docs.djangoproject.com/en/5.1/topics/forms/modelforms/) | [Integração de arquivos](https://docs.djangoproject.com/en/5.1/topics/forms/media/) | [Configuração de formulário](https://docs.djangoproject.com/en/5.1/topics/forms/formsets/) | [Customizar validação](https://docs.djangoproject.com/en/5.1/ref/forms/validation/)
+
+## Processo de desenvolvimento
+
+Aprenda sobre vários componentes e ferramentas que te podem te ajudar no desencolcimento e teste de aplicações Django:
+
+- Configuração: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/settings/) | [Lista completa de configuração](https://docs.djangoproject.com/en/5.1/ref/settings/)
+- Aplicações: [Visão geral](https://docs.djangoproject.com/en/5.1/ref/applications/)
+- Execeções: [Visão geral](https://docs.djangoproject.com/en/5.1/ref/exceptions/)
+- `django-admin e manage.py`: [Visão geral](https://docs.djangoproject.com/en/5.1/ref/django-admin/) | [Adicionando comandos customizados](https://docs.djangoproject.com/en/5.1/howto/custom-management-commands/)
+- Testes: [Introdução](https://docs.djangoproject.com/en/5.1/topics/testing/) | [Escrevendo e Rodando testes](https://docs.djangoproject.com/en/5.1/topics/testing/overview/) | [Ferramentas de testes nativas](https://docs.djangoproject.com/en/5.1/topics/testing/tools/) | [Pontos avançados](https://docs.djangoproject.com/en/5.1/topics/testing/advanced/)
+- Deploy: [Visão geral](https://docs.djangoproject.com/en/5.1/howto/deployment/) | [Servidores WSGI](https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/) | [Servidores ASGI](https://docs.djangoproject.com/en/5.1/howto/deployment/asgi/) | [Deploy de arquivos estáticos](https://docs.djangoproject.com/en/5.1/howto/static-files/deployment/) | [Acompanhamento de erros por email](https://docs.djangoproject.com/en/5.1/howto/error-reporting/) | [Checklist de deploy](https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/)
+
+## O "admin"
+
+Encontre tudo o que você precisa saber sobre a interface de "admin", uma das ferramentas mais popular do Django:
+
+- [Admin site](https://docs.djangoproject.com/en/5.1/ref/contrib/admin/)
+- [Ações de admin](https://docs.djangoproject.com/en/5.1/ref/contrib/admin/actions/)
+- [Documentação de geração de admin](https://docs.djangoproject.com/en/5.1/ref/contrib/admin/admindocs/)
+
+## Segurança
+
+Segurança é um ponto de importância no desenvolvimento de aplicações web e o Django fornece multiplas ferramentas e mecanismo:
+
+- [Visão geral de segurança](https://docs.djangoproject.com/en/5.1/topics/security/)
+- [Abertura de erros de segurança no Django](https://docs.djangoproject.com/en/5.1/releases/security/)
+- [Proteção _Clickjacking_](https://docs.djangoproject.com/en/5.1/ref/clickjacking/)
+- [Proteção contra requisições falsas](https://docs.djangoproject.com/en/5.1/ref/csrf/)
+- [Assinatura Criptográfica](https://docs.djangoproject.com/en/5.1/topics/signing/)
+- [Middleware de segurança](https://docs.djangoproject.com/en/5.1/ref/middleware/#security-middleware)
+
+## Internacionalização e localização
+
+Django oferece uma grande ferramenta de internacionalização e localização to auxiliar no desenvolvimento para multiplas linguagens e regiões do mundo:
+
+- [Visão geral](https://docs.djangoproject.com/en/5.1/topics/i18n/) | [Internacionalização](https://docs.djangoproject.com/en/5.1/topics/i18n/translation/) | [Localização](https://docs.djangoproject.com/en/5.1/topics/i18n/translation/#how-to-create-language-files) | [UI e entratdas de formulários adaptados](https://docs.djangoproject.com/en/5.1/topics/i18n/formatting/) |
+- [Regiões](https://docs.djangoproject.com/en/5.1/topics/i18n/timezones/) |
+
+## Perfomance e otimização
+
+Temos uma variedade de técnicas e ferramentas que podem auxiliar em um tornar seu código mais eficiente - rápido, usando poucos recursos do sistema
+
+- [Visão geral de performance e otimização](https://docs.djangoproject.com/en/5.1/topics/performance/)
+
+## Ferramentas geográficas
+
+[GeoDjango](https://docs.djangoproject.com/en/5.1/ref/contrib/gis/) pretende ser a maior classe de ferrramentas de geográfica. Esse objetivo está sendo possível graças aplicações poderosas de dados geográficos aberto.
+
+## Ferramentas de desenvolvimento web
+
+Django oferece multiplas ferramentas que você irá usar no desenvolvimento de aplicações web:
+
+- Autenticação: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/auth/) | [Sistema de autenticação](https://docs.djangoproject.com/en/5.1/topics/auth/default/) | [Gerenciador de senhas](https://docs.djangoproject.com/en/5.1/topics/auth/passwords/) | [Autenticação personalizada](https://docs.djangoproject.com/en/5.1/topics/auth/customizing/) | [API](https://docs.djangoproject.com/en/5.1/ref/contrib/auth/)
+
+- [Caching](https://docs.djangoproject.com/en/5.1/topics/cache/)
+- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/)
+- [Envio de emails](https://docs.djangoproject.com/en/5.1/topics/email/)
+- [Feeds (RSS/Atom)](https://docs.djangoproject.com/en/5.1/ref/contrib/syndication/)
+- [Paginação](https://docs.djangoproject.com/en/5.1/topics/pagination/)
+- [Ferramenta para avisos](https://docs.djangoproject.com/en/5.1/ref/contrib/messages/)
+- [Serialização](https://docs.djangoproject.com/en/5.1/topics/serialization/)
+- [Sessões](https://docs.djangoproject.com/en/5.1/topics/http/sessions/)
+- [Sitemaps](https://docs.djangoproject.com/en/5.1/ref/contrib/sitemaps/)
+- [Gerenciamento de arquivos estáticos](https://docs.djangoproject.com/en/5.1/ref/contrib/staticfiles/)
+- [Validação de dados](https://docs.djangoproject.com/en/5.1/ref/validators/)
+
+## Outras funcionalidades importantes
+
+Aprenda sobre outras funcionalidades importantes do Django
+
+- [Processamento condicional](https://docs.djangoproject.com/en/5.1/topics/conditional-view-processing/)
+- [Tipagem de conteúdo e relações genéricas](https://docs.djangoproject.com/en/5.1/ref/contrib/contenttypes/)
+- [Flatpages](https://docs.djangoproject.com/en/5.1/ref/contrib/flatpages/)
+- [Redirecionamento](https://docs.djangoproject.com/en/5.1/ref/contrib/redirects/)
+- [Sinais](https://docs.djangoproject.com/en/5.1/topics/signals/)
+- [Checagem de sistema](https://docs.djangoproject.com/en/5.1/topics/checks/)
+- [Ferramentas para sites](https://docs.djangoproject.com/en/5.1/ref/contrib/sites/)
+- [Unicode em Django](https://docs.djangoproject.com/en/5.1/ref/unicode/)
+
+## Projeto aberto ao público
+
+Aprenda sobre o processo de desenvolvimento do Django e como você pode contribuir:
+
+- Comunidade: [Contribua com Django](https://docs.djangoproject.com/en/5.1/internals/contributing/) | [Processo de lançamento](https://docs.djangoproject.com/en/5.1/internals/release-process/) | [Time](https://docs.djangoproject.com/en/5.1/internals/organization/) | [Repositório com código](https://docs.djangoproject.com/en/5.1/internals/git/) | [Politicas de segurança](https://docs.djangoproject.com/en/5.1/internals/security/) | [Lista de email e fórum](https://docs.djangoproject.com/en/5.1/internals/mailing-lists/)
+
+- Filosofia de Design:[Visão geral](https://docs.djangoproject.com/en/5.1/misc/design-philosophies/)
+- Documentação: [Sobre a documentação](https://docs.djangoproject.com/en/5.1/internals/contributing/writing-documentation/)
+- Distribuição: [Visão geral](https://docs.djangoproject.com/en/5.1/misc/distributions/)
+- Linha do tempo: [Estabilidade da API](https://docs.djangoproject.com/en/5.1/misc/api-stability/) | [Avisos de lançamento e instruções para atualização](https://docs.djangoproject.com/en/5.1/releases/) | [Desuso](https://docs.djangoproject.com/en/5.1/internals/deprecation/)
