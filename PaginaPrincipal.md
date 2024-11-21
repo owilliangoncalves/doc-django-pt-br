@@ -20,12 +20,12 @@ Está tendo dificuldades? Nós podemos te ajudar.
 
 ## Como a documentação é organizada
 
-Django possui uma documentação extensa. Uma visão geral em alto nível de como a documentação está organizada poderá te ajudar a etender onde certas coisas estão:
+Django possui uma documentação extensa. Uma visão geral em alto nível de como a documentação está organizada poderá te ajudar a entender onde certas coisas estão:
 
 - [Tutoriais](https://docs.djangoproject.com/en/5.1/intro/) te pegam pelas mãos e te ajuda a criar uma aplicação web passo a passo. Comece pelo tutorial se você é novo usuário de Django ou também não tem experiência com desenvolvimento de aplicações web. Também de uma olhada em ["Primeiros Passos"](https://docs.djangoproject.com/en/5.1/#index-first-steps).
 - [Guia de tópicos](https://docs.djangoproject.com/en/5.1/topics/) discussão de pontos chaves e conceitos em alto nível, dando boas ideias.
-- [Guia de referências](https://docs.djangoproject.com/en/5.1/ref/) nela você encontra referências tecnicas para API e outros assuntos do Django. Eles descrevem como funciona e como usa o Django, assumindo que você tenha um entendimento básico de conceitos importantes.
-- [Guia de como fazer](https://docs.djangoproject.com/en/5.1/howto/) te dão uma idéia dos passos envolvidos e problemas chaves de caso de uso. São tutoriais avançados e assumem que você sabe como Django funciona.
+- [Guia de referências](https://docs.djangoproject.com/en/5.1/ref/) nela você encontra referências técnicas para API e outros assuntos do Django. Eles descrevem como funciona e como usa o Django, assumindo que você tenha um entendimento básico de conceitos importantes.
+- [Guia de como fazer](https://docs.djangoproject.com/en/5.1/howto/) te dão uma ideia dos passos envolvidos e problemas chaves de caso de uso. São tutoriais avançados e assumem que você sabe como Django funciona.
 
 _Algumas palavras a seguir não serão traduzidas. Existe uma arquitetura MVC (Model, View e Control) e faz sentido que você saiba o que é. Para mais informações veja esse vídeo: [YouTube - MVC](https://youtu.be/m5ZcrbiD41E?si=zEovsamN3MJD4cft&t=163)_
 
@@ -53,7 +53,7 @@ Django adota o conceito de _views_ para encapsular a parte lógica de uma _reque
 
 ## A camada _"template"_
 
-A camada _template_ fornce uma sintaxe de design amigavel para rendereizar as informações que serão mostradas ao usuário. Aprenda mais a seguir:
+A camada _template_ fornece uma sintaxe de design amigável para renderizar as informações que serão mostradas ao usuário. Aprenda mais a seguir:
 
 - O básico: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/templates/)
 - Para designers: [Visão geral da linguagem](https://docs.djangoproject.com/en/5.1/ref/templates/language/) | [Tags e filtros nativos](https://docs.djangoproject.com/en/5.1/ref/templates/builtins/) | [Humanização](https://docs.djangoproject.com/en/5.1/ref/contrib/humanize/)
@@ -61,14 +61,14 @@ A camada _template_ fornce uma sintaxe de design amigavel para rendereizar as in
 
 ## Formulários
 
-Django fornce um boas ferramentas para facilitar a criação de forms e manipupalação de dados.
+Django fornece um boas ferramentas para facilitar a criação de forms e manipulação de dados.
 
-- O bádico: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/forms/) | [API de formulários](https://docs.djangoproject.com/en/5.1/ref/forms/api/) | [Campos nativos](https://docs.djangoproject.com/en/5.1/ref/forms/fields/) | [Widgets nativos](https://docs.djangoproject.com/en/5.1/ref/forms/widgets/)
+- O básico: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/forms/) | [API de formulários](https://docs.djangoproject.com/en/5.1/ref/forms/api/) | [Campos nativos](https://docs.djangoproject.com/en/5.1/ref/forms/fields/) | [Widgets nativos](https://docs.djangoproject.com/en/5.1/ref/forms/widgets/)
 - Avançado: [Modelo de formulários](https://docs.djangoproject.com/en/5.1/topics/forms/modelforms/) | [Integração de arquivos](https://docs.djangoproject.com/en/5.1/topics/forms/media/) | [Configuração de formulário](https://docs.djangoproject.com/en/5.1/topics/forms/formsets/) | [Customizar validação](https://docs.djangoproject.com/en/5.1/ref/forms/validation/)
 
 ## Processo de desenvolvimento
 
-Aprenda sobre vários componentes e ferramentas que te podem te ajudar no desencolcimento e teste de aplicações Django:
+Aprenda sobre vários componentes e ferramentas que te podem te ajudar no desenvolvimento e teste de aplicações Django:
 
 - Configuração: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/settings/) | [Lista completa de configuração](https://docs.djangoproject.com/en/5.1/ref/settings/)
 - Aplicações: [Visão geral](https://docs.djangoproject.com/en/5.1/ref/applications/)
@@ -87,7 +87,7 @@ Encontre tudo o que você precisa saber sobre a interface de "admin", uma das fe
 
 ## Segurança
 
-Segurança é um ponto de importância no desenvolvimento de aplicações web e o Django fornece multiplas ferramentas e mecanismo:
+Segurança é um ponto de importância no desenvolvimento de aplicações web e o Django fornece múltiplas ferramentas e mecanismo:
 
 - [Visão geral de segurança](https://docs.djangoproject.com/en/5.1/topics/security/)
 - [Abertura de erros de segurança no Django](https://docs.djangoproject.com/en/5.1/releases/security/)
@@ -98,12 +98,12 @@ Segurança é um ponto de importância no desenvolvimento de aplicações web e 
 
 ## Internacionalização e localização
 
-Django oferece uma grande ferramenta de internacionalização e localização to auxiliar no desenvolvimento para multiplas linguagens e regiões do mundo:
+Django oferece uma grande ferramenta de internacionalização e localização to auxiliar no desenvolvimento para múltiplas linguagens e regiões do mundo:
 
 - [Visão geral](https://docs.djangoproject.com/en/5.1/topics/i18n/) | [Internacionalização](https://docs.djangoproject.com/en/5.1/topics/i18n/translation/) | [Localização](https://docs.djangoproject.com/en/5.1/topics/i18n/translation/#how-to-create-language-files) | [UI e entratdas de formulários adaptados](https://docs.djangoproject.com/en/5.1/topics/i18n/formatting/) |
 - [Regiões](https://docs.djangoproject.com/en/5.1/topics/i18n/timezones/) |
 
-## Perfomance e otimização
+## Performance e otimização
 
 Temos uma variedade de técnicas e ferramentas que podem auxiliar em um tornar seu código mais eficiente - rápido, usando poucos recursos do sistema
 
@@ -111,11 +111,11 @@ Temos uma variedade de técnicas e ferramentas que podem auxiliar em um tornar s
 
 ## Ferramentas geográficas
 
-[GeoDjango](https://docs.djangoproject.com/en/5.1/ref/contrib/gis/) pretende ser a maior classe de ferrramentas de geográfica. Esse objetivo está sendo possível graças aplicações poderosas de dados geográficos aberto.
+[GeoDjango](https://docs.djangoproject.com/en/5.1/ref/contrib/gis/) pretende ser a maior classe de ferramentas de geográfica. Esse objetivo está sendo possível graças aplicações poderosas de dados geográficos aberto.
 
 ## Ferramentas de desenvolvimento web
 
-Django oferece multiplas ferramentas que você irá usar no desenvolvimento de aplicações web:
+Django oferece múltiplas ferramentas que você irá usar no desenvolvimento de aplicações web:
 
 - Autenticação: [Visão geral](https://docs.djangoproject.com/en/5.1/topics/auth/) | [Sistema de autenticação](https://docs.djangoproject.com/en/5.1/topics/auth/default/) | [Gerenciador de senhas](https://docs.djangoproject.com/en/5.1/topics/auth/passwords/) | [Autenticação personalizada](https://docs.djangoproject.com/en/5.1/topics/auth/customizing/) | [API](https://docs.djangoproject.com/en/5.1/ref/contrib/auth/)
 
