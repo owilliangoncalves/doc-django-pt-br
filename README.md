@@ -12,7 +12,7 @@ Tudo que você precisa saber sobre o Django.
 
 Se você é novo em programação ou usuário novo do Django? Esse é o lugar para começar!
 
-- Do inicio: [Visão Geral](PaginaPrincipal.md) | [Instalação](https://docs.djangoproject.com/en/5.1/intro/install/)
+- Do inicio: [Visão Geral](ResumoSobreDjango.md) | [Instalação](https://docs.djangoproject.com/en/5.1/intro/install/)
 - Tutorial:
 
 ## Como conseguir ajuda
